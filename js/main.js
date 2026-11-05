@@ -18,21 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
-
-
-// Lightbox simple para las galerías de proyectos
-const lightbox = document.getElementById('image-lightbox');
-const lightboxImg = document.getElementById('lightbox-img');
-
-document.querySelectorAll('.gallery-thumb').forEach(thumb => {
-    thumb.addEventListener('click', () => {
-        lightboxImg.src = thumb.dataset.full;
-        lightboxImg.alt = thumb.alt;
-        lightbox.showModal();
-    });
-});
-
-lightbox.addEventListener('click', () => {
-    lightbox.close();
-    lightboxImg.src = ''; // Limpiar para no acumular memoria
-});
