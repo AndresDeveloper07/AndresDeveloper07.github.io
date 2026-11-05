@@ -27,7 +27,7 @@ Soy un desarrollador de Medellín, Colombia, enfocado en construir soluciones we
 *Plataforma de e-commerce y gestión de servicios.*
 
 <p align="center">
-  <img src="assets/images/carobeauty-dashboard.png" alt="Panel de administración de CaroBeauty" width="700">
+  <img src="assets/images/Carobueaty-Dashboard.png" alt="Dashboard de gestión de CaroBeauty" width="700">
 </p>
 
 - **Impacto:** Digitalización completa del negocio, incluyendo agendamiento y pagos.
@@ -40,7 +40,7 @@ Soy un desarrollador de Medellín, Colombia, enfocado en construir soluciones we
 *Sistema de administración de almacén textil.*
 
 <p align="center">
-  <img src="assets/images/textiplast-pedidos.png" alt="Gestión de pedidos en Textiplast" width="700">
+  <img src="assets/images/Textiplast-logistica.png" alt="Gestión de logística de pedidos en Textiplast" width="700">
 </p>
 
 - **Impacto:** Reducción de pérdidas operativas de ~$1.000.000 COP diarios.
