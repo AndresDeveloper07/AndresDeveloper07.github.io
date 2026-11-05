@@ -1,1 +1,278 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --primary: #1E3A8A;
+    --primary-light: #3B82F6;
+    --dark: #1F2937;
+    --gray: #6B7280;
+    --light-bg: #F9FAFB;
+    --white: #FFFFFF;
+    --border: #E5E7EB;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+    line-height: 1.6;
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+}
+
+a {
+    color: var(--primary-light);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, var(--primary) 0%, #0F172A 100%);
+    color: var(--white);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--white);
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    color: #CBD5E1;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    color: #94A3B8;
+    margin-bottom: 2rem;
+}
+
+.hero-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #E0E7FF;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.btn-secondary:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn-small:hover {
+    background-color: var(--primary-light);
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 4rem 0;
+}
+
+.about {
+    background-color: var(--light-bg);
+}
+
+.about p {
+    max-width: 800px;
+    color: var(--gray);
+    font-size: 1.05rem;
+}
+
+/* Proyectos */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--white);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #E5E7EB;
+}
+
+.placeholder-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-info h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.project-info p {
+    color: var(--gray);
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-stack {
+    font-size: 0.85rem !important;
+    color: var(--primary) !important;
+}
+
+.status {
+    font-weight: 600;
+    color: #D97706 !important;
+}
+
+/* Habilidades */
+.skills {
+    background-color: var(--light-bg);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category h3 {
+    color: var(--primary);
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.skill-category ul {
+    list-style: none;
+}
+
+.skill-category li {
+    color: var(--gray);
+    padding: 0.25rem 0;
+    font-size: 0.95rem;
+}
+
+.skill-category li::before {
+    content: "▸ ";
+    color: var(--primary-light);
+}
+
+/* Footer */
+.contact {
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: center;
+}
+
+.contact h2 {
+    color: var(--white);
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+}
+
+.contact a {
+    color: #BFDBFE;
+}
+
+.copyright {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #94A3B8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .tagline {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
