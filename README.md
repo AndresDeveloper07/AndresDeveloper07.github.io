@@ -21,6 +21,32 @@ Soy un desarrollador de Medellín, Colombia, enfocado en construir soluciones we
 | **Alexa Masero** | Aplicación web para gestión de terapias, productos, servicios y cursos. | Laravel, MySQL | 🚧 En desarrollo |
 | **Prod. Audiovisual** | Sistema de gestión de clientes, pedidos, control de costos y facturación para producción audiovisual. | Laravel, MariaDB | 🚧 En desarrollo |
 
+## 🚀 Proyectos Destacados
+
+### CaroBeauty
+*Plataforma de e-commerce y gestión de servicios.*
+
+<p align="center">
+  <img src="assets/images/carobeauty-dashboard.png" alt="Panel de administración de CaroBeauty" width="700">
+</p>
+
+- **Impacto:** Digitalización completa del negocio, incluyendo agendamiento y pagos.
+- **Stack:** Laravel, Livewire, MySQL.
+- **Demo:** [carobeauty.store](https://carobeauty.store/)
+
+---
+
+### Textiplast
+*Sistema de administración de almacén textil.*
+
+<p align="center">
+  <img src="assets/images/textiplast-pedidos.png" alt="Gestión de pedidos en Textiplast" width="700">
+</p>
+
+- **Impacto:** Reducción de pérdidas operativas de ~$1.000.000 COP diarios.
+- **Stack:** Laravel, MariaDB, Docker.
+- **Demo:** [textiplast.bufalox.com](https://textiplast.bufalox.com/)
+
 ---
 
 ## 🛠️ Competencias Técnicas
